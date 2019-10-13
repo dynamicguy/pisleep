@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
     <Layout>
         <SEO title="Home"/>
-        <h1>Hi people</h1>
+        <h1>Anti Sleep Alarm</h1>
         <p>PiSleep is a driver and vehicle safety product which can accurately predict and warn driver's sleeping during
             the driving to protect driver's life and avoid the damage to the vehicle.</p>
         <h2>Features</h2>

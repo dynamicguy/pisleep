@@ -38,7 +38,7 @@ const Layout = ({ children }) => {
         <footer>
           © {new Date().getFullYear()},
           {` `}
-          <a href="https://www.pisleep.com">PiSleep</a>
+          <a href="/">PiSleep</a>
           {` `}
           <Link to="/about/">About Us</Link>
         </footer>

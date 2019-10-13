@@ -5,12 +5,14 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  PiSleep
 </h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+Ant sleep alarm
 
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/65522378-9729-49b1-a50a-c89f0a9809e9/deploy-status)](https://app.netlify.com/sites/pisleep/deploys)
 
 ## 🚀 Quick start
 
