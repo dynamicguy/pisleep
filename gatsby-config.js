@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `PiSleep`,
     description: `anti sleep alarm`,
-    author: `@gatsbyjs`,
+    author: `@ferdous`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
