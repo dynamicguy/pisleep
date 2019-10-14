@@ -7,7 +7,11 @@ import SEO from "../components/seo"
 
 const AboutPage = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="About Us" />
+      <div style={{marginBottom: `1.45rem`}}>
+        <Image/>
+      </div>        
+      
       <h1>About Us</h1>
       <p>PiSleep is a driver and vehicle safety product which can accurately predict and warn driver's sleeping during
           the driving to protect driver's life and avoid the damage to the vehicle.</p>
@@ -20,9 +24,6 @@ const AboutPage = () => (
           <li>Distinguish real doze or fake sleep, effectively reduce false warning.</li>
           <li>Easy to be installed and used.</li>
       </ul>
-      <div style={{maxWidth: `300px`, marginBottom: `1.45rem`}}>
-          <Image/>
-      </div>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )

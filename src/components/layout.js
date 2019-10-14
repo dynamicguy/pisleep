@@ -33,6 +33,8 @@ const Layout = ({ children }) => {
           {` `}
           <a href="/">PiSleep</a>
           {` `}
+          <Link to="/demo/">Demo</Link>
+          {` `}
           <Link to="/about/">About Us</Link>
           {` `}
           <a href="tel:01711241879">Call Us</a>

@@ -19,10 +19,13 @@ const IndexPage = () => (
             <li>Distinguish real doze or fake sleep, effectively reduce false warning.</li>
             <li>Easy to be installed and used.</li>
         </ul>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/QYFAQYKeVJ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0Rxgtgfv4aA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/gNBFGVRLj30" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
         <p>To learn more about our products and pricing please reach us at nurul@ferdo.us or <a href="tel:01711241879">Call Us</a></p>
-        <div style={{maxWidth: `300px`, marginBottom: `1.45rem`}}>
-            <Image/>
-        </div>        
     </Layout>
 );
 
