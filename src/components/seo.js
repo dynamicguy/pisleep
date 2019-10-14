@@ -37,6 +37,10 @@ function SEO({description, lang, meta, title}) {
                     content: title,
                 },
                 {
+                    property: `og:image`,
+                    content: 'https://www.dropbox.com/s/4o1zjwb2ytgi9wg/pisleep.png?dl=1',
+                },
+                {
                     property: `og:description`,
                     content: metaDescription,
                 },
