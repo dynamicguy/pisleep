@@ -14,10 +14,11 @@ const Header = ({ siteTitle }) => (
       style={{
         margin: `0 auto`,
         maxWidth: 960,
+        height: `70px`,
         padding: `.45rem .0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 style={{ margin: 0, float: `left` }}>
         <Logo/>
         <Link
           to="/"
@@ -32,6 +33,11 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <ul className="nav">
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/demo">Demo</Link></li>
+        <li><Link to="/about">About Us</Link></li>
+      </ul>
     </div>
   </header>
 )

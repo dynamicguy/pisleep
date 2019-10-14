@@ -630,3 +630,22 @@ footer{
 .brand strong {
   vertical-align: top;
 }
+ul.nav {
+  padding-left: 0;
+  list-style: none;
+  float: right;
+  line-height: 50px;
+}
+ul.nav li{
+  display: inline-block;
+}
+
+ul.nav li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+ul.nav li a:hover {
+  color: #ffeb3b;
+}
