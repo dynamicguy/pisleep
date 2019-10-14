@@ -18,7 +18,7 @@ const IndexPage = () => (
             <li>Distinguish real doze or fake sleep, effectively reduce false warning.</li>
             <li>Easy to be installed and used.</li>
         </ul>
-        <iframe title="demo" id="ytplayer" type="text/html" width="900" height="600"
+        <iframe title="demo" id="ytplayer" type="text/html" width="100%" height="600"
 src="https://www.youtube.com/embed/QYFAQYKeVJ4?playlist=0Rxgtgfv4aA,gNBFGVRLj30&version=3"
 frameborder="0" allowfullscreen></iframe>
         <p>To learn more about our products and pricing please reach us at nurul@ferdo.us or <a href="tel:01711241879">Call Us</a></p>
