@@ -1,3 +1,5 @@
+https://pisleep.netlify.com/* https://www.pisleep.com/ 301!
+http://pisleep.com/* https://www.pisleep.com/ 301!
 [[headers]]
 for = "/static/*"
 [headers.values]
