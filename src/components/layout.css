@@ -623,3 +623,10 @@ pre tt:after {
 footer{
   text-align: center;
 }
+.brand{
+  text-decoration: none;
+  color: white;
+}
+.brand strong {
+  vertical-align: top;
+}

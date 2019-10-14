@@ -1,10 +1,3 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
@@ -41,6 +34,8 @@ const Layout = ({ children }) => {
           <a href="/">PiSleep</a>
           {` `}
           <Link to="/about/">About Us</Link>
+          {` `}
+          <a href="tel:01711241879">Call Us</a>
         </footer>
       </div>
     </>

@@ -19,9 +19,10 @@ const IndexPage = () => (
             <li>Distinguish real doze or fake sleep, effectively reduce false warning.</li>
             <li>Easy to be installed and used.</li>
         </ul>
+        <p>To learn more about our products and pricing please reach us at nurul@ferdo.us or <a href="tel:01711241879">Call Us</a></p>
         <div style={{maxWidth: `300px`, marginBottom: `1.45rem`}}>
             <Image/>
-        </div>
+        </div>        
     </Layout>
 );
 
