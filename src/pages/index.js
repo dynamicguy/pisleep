@@ -1,7 +1,6 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -19,12 +18,9 @@ const IndexPage = () => (
             <li>Distinguish real doze or fake sleep, effectively reduce false warning.</li>
             <li>Easy to be installed and used.</li>
         </ul>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/QYFAQYKeVJ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/0Rxgtgfv4aA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/gNBFGVRLj30" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+        <iframe title="demo" id="ytplayer" type="text/html" width="900" height="600"
+src="https://www.youtube.com/embed/QYFAQYKeVJ4?playlist=0Rxgtgfv4aA,gNBFGVRLj30&version=3"
+frameborder="0" allowfullscreen></iframe>
         <p>To learn more about our products and pricing please reach us at nurul@ferdo.us or <a href="tel:01711241879">Call Us</a></p>
     </Layout>
 );
